@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HotelListingAPI.Migrations
 {
-    [DbContext(typeof(DatabaseContex))]
+    [DbContext(typeof(DatabaseContext))]
     [Migration("20210711080655_DatabaseCreated")]
     partial class DatabaseCreated
     {

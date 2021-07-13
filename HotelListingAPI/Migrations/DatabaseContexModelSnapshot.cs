@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HotelListingAPI.Migrations
 {
-    [DbContext(typeof(DatabaseContex))]
+    [DbContext(typeof(DatabaseContext))]
     partial class DatabaseContexModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
