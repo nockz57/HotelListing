@@ -4,14 +4,16 @@ using HotelListingAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HotelListingAPI.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    partial class DatabaseContexModelSnapshot : ModelSnapshot
+    [Migration("20210714061750_AddedIdentity")]
+    partial class AddedIdentity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -125,18 +127,6 @@ namespace HotelListingAPI.Migrations
                             Id = 3,
                             Name = "Mozambique",
                             ShortName = "MZ"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "Tanzania",
-                            ShortName = "TZ"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Name = "Mauritius",
-                            ShortName = "MUS"
                         });
                 });
 
@@ -189,22 +179,6 @@ namespace HotelListingAPI.Migrations
                             CountryId = 2,
                             Name = "The Victoria Falls",
                             Rating = 5.0
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Address = "Zanzibar-Bwejuu",
-                            CountryId = 4,
-                            Name = "Baraza Resort & Spa",
-                            Rating = 4.5
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Address = "North Coast",
-                            CountryId = 5,
-                            Name = "Grand Gaube",
-                            Rating = 5.0
                         });
                 });
 
@@ -233,29 +207,6 @@ namespace HotelListingAPI.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "984a72ac-2534-4cc9-99a3-87bec8a3a70e",
-                            ConcurrencyStamp = "3e4ecc0f-1711-453c-a9d8-052415527d3a",
-                            Name = "User",
-                            NormalizedName = "USER"
-                        },
-                        new
-                        {
-                            Id = "ab415330-2716-4517-8645-86e13d7ad9d7",
-                            ConcurrencyStamp = "4b41b656-fa99-439b-bbfe-6b9c6bb2ec68",
-                            Name = "Administrator",
-                            NormalizedName = "ADMINISTRATOR"
-                        },
-                        new
-                        {
-                            Id = "d2f654be-5858-4a95-a545-f1ff9b40883a",
-                            ConcurrencyStamp = "2d1395a3-f343-4cb9-88e9-e4269b077257",
-                            Name = "Guest",
-                            NormalizedName = "GUEST"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
