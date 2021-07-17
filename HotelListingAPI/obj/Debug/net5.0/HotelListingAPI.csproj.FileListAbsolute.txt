@@ -11,7 +11,6 @@ C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microso
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\mphet\source\home\HotelListing\HotelListingAPI\obj\Debug\net5.0\HotelListingAPI.csproj.AssemblyReference.cache
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\obj\Debug\net5.0\HotelListingAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\obj\Debug\net5.0\HotelListingAPI.AssemblyInfoInputs.cache
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\obj\Debug\net5.0\HotelListingAPI.AssemblyInfo.cs
@@ -81,3 +80,4 @@ C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microso
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mphet\source\home\HotelListing\HotelListingAPI\obj\Debug\net5.0\HotelListingAPI.csproj.AssemblyReference.cache
