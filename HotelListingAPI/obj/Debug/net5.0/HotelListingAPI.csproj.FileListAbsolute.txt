@@ -80,4 +80,9 @@ C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microso
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\JetBrains.Annotations.dll
+C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\X.PagedList.dll
+C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
 C:\Users\mphet\source\home\HotelListing\HotelListingAPI\obj\Debug\net5.0\HotelListingAPI.csproj.AssemblyReference.cache
+C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\mphet\source\home\HotelListing\HotelListingAPI\bin\Debug\net5.0\Marvin.Cache.Headers.dll
